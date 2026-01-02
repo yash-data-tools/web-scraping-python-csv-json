@@ -12,7 +12,7 @@ headers = {
 
 url = "https://books.toscrape.com"
 fl = []
-n = 0
+n = 1
 try:
     while True:
         r = requests.get(url, headers=headers)
@@ -64,3 +64,4 @@ try:
 
 except requests.exceptions.RequestException as e:
     print(e)
+
